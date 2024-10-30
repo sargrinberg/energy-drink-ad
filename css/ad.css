@@ -1,0 +1,106 @@
+
+@font-face{
+    font-family: 'Helvetica Now Var';
+    src: url("../fonts/HelveticaNowVar.ttf") format("truetype");
+    font-weight: 4 30;
+    }
+    
+    
+    
+    
+    body,html {
+        height:100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+.image-container {
+    width: 336px;
+    height: 280px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid pink;
+    background-color: pink;
+    padding-left: 100px;
+    flex-direction: row; 
+    gap: 50px; 
+    text-align: left;
+    position: relative;
+}
+
+.image-container p {
+    width: 200px;
+    height: auto;
+    
+
+   
+}
+
+.image-container img {
+    width: 280px;
+    height: auto;
+    z-index: 1;
+    position: absolute;
+    right: 200px;
+    top: -40px;
+    z-index: 1;
+    
+}
+
+
+
+    
+ .title{
+        font-size: 30px;
+        position: absolute;
+        right: 0px;
+        bottom: 220px;
+        font-family: 'Helvetica Now Var';
+        font-weight: 30;
+    }
+    .text{
+        font-size: 25px;
+        position: absolute;
+        right: 0px;
+        bottom: 150px;
+        font-family: 'Helvetica Now Var';
+        font-weight: 10; 
+    }
+    .slogan{
+        font-size: 20px;
+        position: absolute;
+        right: 0px;
+        bottom: 110px;
+        font-family: 'Helvetica Now Var';
+    }
+
+.link{
+    font-family: 'Roboto';
+    font-size: 15px;
+    display: block;
+    margin-top: 60px;
+    margin: auto;
+    border: solid 2px purple;
+    width: 120px;
+    padding: 10px;
+    position: absolute;
+    left: 235px;
+    text-align: center;
+    margin-top: 200px;
+    margin-right: 500px;
+    text-decoration: none;
+    transition: 0.4s
+   
+    
+}
+
+
+.link:hover {
+    color: white;
+    background: purple;
+    transition: 0.4s;
+}
+
